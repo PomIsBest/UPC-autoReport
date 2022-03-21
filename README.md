@@ -22,9 +22,9 @@
 
 点击【函数服务】->【新建】;
 
-![image-20220321105344217](C:\Users\Pom\AppData\Roaming\Typora\typora-user-images\image-20220321105344217.png)
+![](images/image1.png)
 
-选择【从头开始】，
+选择【从头开始】
 
 函数类型：选择"事件函数"
 
@@ -36,13 +36,13 @@
 
 【运行环境】选择**“Python 3.6”**
 
-![image-20220321163734855](C:\Users\Pom\AppData\Roaming\Typora\typora-user-images\image-20220321163734855.png)
+![](images/image2.png)
 
 
 
 在【函数代码】部分，选择【在线编辑】，复制文件“autoReport.py"里的代码，然后在userInfo里填入数字石大的账号密码；
 
-![image-20220321155340870](C:\Users\Pom\AppData\Roaming\Typora\typora-user-images\image-20220321155340870.png)
+![](images/image3.png)
 
 在【高级配置】里，修改【环境配置】里
 
@@ -52,7 +52,7 @@
 
 其余地方无需修改；
 
-![image-20220321155754869](C:\Users\Pom\AppData\Roaming\Typora\typora-user-images\image-20220321155754869.png)
+![](images/image4.png)
 
 在【触发器配置】里
 
@@ -60,11 +60,11 @@
 
 Cron表达式 输入：`0 1 1,8 * * * *`，该触发时间为每天的01:01和08:01，两次提交防止因为某原因而填报失败。
 
-![image-20220321160210815](C:\Users\Pom\AppData\Roaming\Typora\typora-user-images\image-20220321160210815.png)
+![](images/image5.png)
 
 点击左下角【完成】，即可完成函数编辑。
 
-![image-20220321160858345](C:\Users\Pom\AppData\Roaming\Typora\typora-user-images\image-20220321160858345.png)
+![](images/image6.png)
 
 
 
@@ -74,7 +74,7 @@ Cron表达式 输入：`0 1 1,8 * * * *`，该触发时间为每天的01:01和08
 
 进入后选择【函数代码】
 
-![image-20220321164742178](C:\Users\Pom\AppData\Roaming\Typora\typora-user-images\image-20220321164742178.png)
+![](images/image7.png)
 
 
 
@@ -82,7 +82,9 @@ Cron表达式 输入：`0 1 1,8 * * * *`，该触发时间为每天的01:01和08
 
 如果出现“测试成功”，则说明全部成功。
 
-![image-20220321161940060](C:\Users\Pom\AppData\Roaming\Typora\typora-user-images\image-20220321161940060.png)
+![](images/image8.png)
+
+
 
 ### 注意事项！！！
 
